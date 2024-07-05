@@ -1,6 +1,7 @@
 body {
     background-color: rgb(255, 252, 240);
     font-family: 'JetBrains Mono';font-size: 12px;
+    display: centre
 }
 nav ul {
     list-style-type: none;
@@ -8,4 +9,10 @@ nav ul {
 }
 nav ul li {
     margin: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4
 }
