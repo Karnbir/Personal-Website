@@ -3,6 +3,8 @@ body {
     font-family: 'JetBrains Mono';font-size: 12px;
     display: centre
 }
+nav {
+}
 nav ul {
     list-style-type: none;
     display: flex;
