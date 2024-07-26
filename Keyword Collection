@@ -1,0 +1,27 @@
+Keyword Collection:
+
+Layout System
+
+Flex container
+    diplay:flex
+    properties
+        direciton
+        wrap
+        flow
+        align
+            justify-content
+
+
+
+
+
+
+
+
+
+
+
+
+TLS:
+What problem does flexbox solve
+How is align different from justify content
