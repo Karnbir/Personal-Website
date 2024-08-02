@@ -75,6 +75,18 @@
         </ul>
 
         <p>Thanks for stopping by, I hope you found something of value here ❤️</p>
+        <button onClick="hello()">Click me</button>
+        <p> You have clicked</p>
+        <script>
+            let counter = 0;
+            function hello() {
+                counter++;
+                document.getElementById("clicks").innerHTML = counter;
+            }
+            
+        </script>
+        <p>0</p>
+        <p>times</p>
 
     </main>
 </body>
