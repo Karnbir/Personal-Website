@@ -11,20 +11,15 @@ Flex container
         align
             justify-content
 
-
-
-
-
-
-
-
-
-
-
-
 TLS:
 What problem does flexbox solve
 How is align different from justify content
 
 
 JavaScript:
+<script>
+function
+    variables
+
+<HTML>
+    document.querySelector()

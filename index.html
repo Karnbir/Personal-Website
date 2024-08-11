@@ -75,18 +75,17 @@
         </ul>
 
         <p>Thanks for stopping by, I hope you found something of value here ❤️</p>
-        <button onClick="hello()">Click me</button>
-        <p> You have clicked</p>
+        <button>Click me</button>
+        <p> You have clicked <span id="CounterMe">0</span> times</p>
+
+        <!-- <p id="CounterMe">0</p> -->
         <script>
             let counter = 0;
-            function hello() {
+            function count() {
                 counter++;
-                document.getElementById("clicks").innerHTML = counter;
+                document.getElementById('CounterMe').innerHTML = counter;
             }
-            
+            document.querySelector('button').onclick = count;
         </script>
-        <p>0</p>
-        <p>times</p>
-
     </main>
 </body>
