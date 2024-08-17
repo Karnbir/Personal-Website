@@ -6,8 +6,10 @@ body {
     
 }
 nav ul {
+    font-size: small;
     list-style-type: none;
     display: flex;
+    border: 1px 
 }
 nav ul li {
     margin: 10px;
