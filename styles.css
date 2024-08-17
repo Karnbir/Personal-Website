@@ -9,7 +9,8 @@ nav ul {
     font-size: small;
     list-style-type: none;
     display: flex;
-    border: 1px 
+    border: 1px
+    
 }
 nav ul li {
     margin: 10px;
@@ -32,4 +33,8 @@ img{
 
 h1 {
     text-align: center;
+}
+
+a:hover {
+    color: red;
 }
